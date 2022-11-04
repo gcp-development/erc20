@@ -20,12 +20,13 @@ Build the contract
 cargo +nightly contract build
 ```
 
+```bash
 target
   └─ ink
     └─ erc20.contract
     └─ erc20.wasm
     └─ metadata.json
-
+```
 
 References:<br/>
 [ink!](https://use.ink/4.0.0-alpha.1/)<br/>
