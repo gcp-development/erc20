@@ -19,7 +19,6 @@ Build the contract
 ```bash
 cargo +nightly contract build
 ```
-a Wasm binary, a metadata file (which contains the contract's ABI) and a .contract file which bundles both. This .contract file can be used to deploy your contract to a chain. 
 In the target folder we should have these files:
 ```bash
 target
