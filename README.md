@@ -70,6 +70,11 @@ target
 
 A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the contract's ABI) and the contract file(erc20.contract/which we will deploy to our chain).
 
+View from [Intellij community edition](https://www.jetbrains.com/idea/download/#section=linux) with the [Rust plugin](https://www.jetbrains.com/rust/)
+
+![image](https://user-images.githubusercontent.com/76512851/200376991-a0a2151c-688d-4bfb-a2a8-bfc33758c22e.png)
+
+
 [Deploy the contract](https://use.ink/4.0.0-alpha.1/getting-started/deploy-your-contract)
 
 References:<br/>
