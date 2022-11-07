@@ -26,6 +26,7 @@ curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 cargo install cargo-contract --version 2.0.0-alpha.5
 ```
 
+The environment should look like this.
 ```bash
 rustc --version
 ```
