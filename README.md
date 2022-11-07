@@ -71,7 +71,6 @@ A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the con
 
 [Deploy the contract](https://use.ink/4.0.0-alpha.1/getting-started/deploy-your-contract)
 
-
 References:<br/>
 [ink!](https://use.ink/4.0.0-alpha.1/)<br/>
 [Rust and WebAssembly](https://rustwasm.github.io/docs/book/)
