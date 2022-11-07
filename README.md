@@ -28,7 +28,7 @@ curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 cargo install cargo-contract --version 2.0.0-alpha.5
 ```
 
-![image](https://user-images.githubusercontent.com/76512851/200306803-b56f54ec-983d-4067-ab25-3ea58c4227f3.png)
+
 
 
 
