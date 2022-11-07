@@ -27,7 +27,13 @@ rustup default nightly
 curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 cargo install cargo-contract --version 2.0.0-alpha.5
 ```
-![image](https://user-images.githubusercontent.com/76512851/200001258-5d3bb9ab-ea23-44f7-b93b-f38333e4bb4b.png)
+
+![image](https://user-images.githubusercontent.com/76512851/200306803-b56f54ec-983d-4067-ab25-3ea58c4227f3.png)
+
+
+
+
+
 
 Run the test cases for the  contract
 ```bash
