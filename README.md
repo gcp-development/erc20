@@ -29,7 +29,8 @@ cargo install cargo-contract --version 2.0.0-alpha.5
 ```bash
 rustc --version
 ```
-![image](https://user-images.githubusercontent.com/76512851/200311538-fcb37089-4b8d-4458-949f-d1776349cc3c.png)
+![image](https://user-images.githubusercontent.com/76512851/200311825-aa4d05c7-075c-45c5-896f-d1aaee15d592.png)
+
 
 
 cargo-contract release version
