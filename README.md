@@ -22,7 +22,6 @@ rustup update nightly
 rustup target add wasm32-unknown-unknown --toolchain nightly
 rustup install nightly-2022-08-15
 rustup default nightly
-curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 cargo install cargo-contract --version 2.0.0-alpha.5
 ```
 
