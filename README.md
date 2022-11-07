@@ -17,8 +17,6 @@ rustup update
 rustup component add rust-src
 cargo install cargo-dylint dylint-link
 cargo install --force --locked cargo-contract
-
-rustup +nightly show
 rustup update
 rustup update nightly
 rustup target add wasm32-unknown-unknown --toolchain nightly
@@ -38,7 +36,11 @@ rustup show
 ```
 ![image](https://user-images.githubusercontent.com/76512851/200315230-ecb0a90c-38a8-45e5-aaa3-0f474397ce2f.png)
 
-cargo-contract release version
+```bash
+rustup +nightly show
+```
+![image](https://user-images.githubusercontent.com/76512851/200316327-b289a3aa-4a7c-41d9-ac38-a044fc7bfbb1.png)
+
 ```bash
 cargo-contract -V
 ```
