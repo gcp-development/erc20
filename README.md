@@ -3,7 +3,7 @@
 
 The cargo-contract release version used is [v2.0.0-alpha.5](https://github.com/paritytech/cargo-contract/releases/). This release(v2.0.0-alpha.5) supports compatibility with the [v4.0.0-alpha.3](https://github.com/paritytech/ink/releases/tag/v4.0.0-alpha.3) release of [ink!](https://use.ink/4.0.0-alpha.1/).<b>It is not backwards compatible with older versions of ink!</b>.
 
-Ubuntu 22.04.1 LTS clean install.
+Set for Ubuntu 22.04.1 LTS clean install.
 ```bash
 sudo apt install build-essential
 sudo apt-get install -y libssl-dev
