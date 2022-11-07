@@ -17,7 +17,7 @@ rustup update
 rustup component add rust-src
 cargo install cargo-dylint dylint-link
 cargo install --force --locked cargo-contract
-rustup show
+
 rustup +nightly show
 rustup update
 rustup update nightly
@@ -33,7 +33,10 @@ rustc --version
 ```
 ![image](https://user-images.githubusercontent.com/76512851/200311825-aa4d05c7-075c-45c5-896f-d1aaee15d592.png)
 
-
+```bash
+rustup show
+```
+![image](https://user-images.githubusercontent.com/76512851/200315230-ecb0a90c-38a8-45e5-aaa3-0f474397ce2f.png)
 
 cargo-contract release version
 ```bash
