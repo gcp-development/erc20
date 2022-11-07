@@ -56,7 +56,7 @@ cargo +nightly test
 [Compile the contract.](https://use.ink/4.0.0-alpha.1/getting-started/building-your-contract)
 
 ```bash
-cargo +nightly contract build
+cargo +stable contract build
 ```
 
 In the target folder we should have these files:
