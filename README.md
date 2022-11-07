@@ -45,19 +45,12 @@ rustup +nightly show
 cargo-contract -V
 ```
 ![image](https://user-images.githubusercontent.com/76512851/200310950-d5a5e787-5e43-4096-9453-758b42d03f53.png)
-
-
-
-
-
-
-
-Run the test cases for the  contract
+<hr/>
+[Run the test cases for the contract.](https://use.ink/4.0.0-alpha.1/getting-started/creating-an-ink-project#testing-your-contract)
 ```bash
 cargo +nightly test
 ```
-
-Build the contract
+[Compile the contract.](https://use.ink/4.0.0-alpha.1/getting-started/building-your-contract)
 ```bash
 cargo +nightly contract build
 ```
@@ -70,6 +63,9 @@ target
     └─ metadata.json
 ```
 A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the contract's ABI) and the contract file(erc20.contract/which we will deploy to our chain).
+
+[Deploy the contract](https://use.ink/4.0.0-alpha.1/getting-started/deploy-your-contract)
+
 
 References:<br/>
 [ink!](https://use.ink/4.0.0-alpha.1/)<br/>
