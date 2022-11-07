@@ -68,8 +68,8 @@ target
     └─ metadata.json
 ```
 
-A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the contract's ABI) and the contract file(erc20.contract/which we will deploy to our chain).
-Note:Application Binary Interface (ABI) definition from [Solidity](https://docs.soliditylang.org/en/v0.8.17/abi-spec.html)
+A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the contract's ABI) and the contract file(erc20.contract/which we will deploy to our chain).<br/>
+Note:Application Binary Interface (ABI) definition from [Ethereum/Solidity](https://docs.soliditylang.org/en/v0.8.17/abi-spec.html)
 
 View from [Intellij community edition](https://www.jetbrains.com/idea/download/#section=linux) with the [Rust plugin](https://www.jetbrains.com/rust/)
 
