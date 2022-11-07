@@ -46,6 +46,7 @@ cargo-contract -V
 ```
 ![image](https://user-images.githubusercontent.com/76512851/200310950-d5a5e787-5e43-4096-9453-758b42d03f53.png)
 <hr/>
+
 [Run the test cases for the contract.](https://use.ink/4.0.0-alpha.1/getting-started/creating-an-ink-project#testing-your-contract)
 
 ```bash
