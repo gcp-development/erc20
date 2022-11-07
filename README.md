@@ -11,12 +11,10 @@ sudo apt install pkg-config
 sudo apt install curl
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
-rustc --version
 rustup update
 rustup component add rust-src
 cargo install cargo-dylint dylint-link
 cargo install --force --locked cargo-contract
-cargo-contract -V
 rustup show
 rustup +nightly show
 rustup update
@@ -28,6 +26,17 @@ curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 cargo install cargo-contract --version 2.0.0-alpha.5
 ```
 
+```bash
+rustc --version
+```
+![image](https://user-images.githubusercontent.com/76512851/200311538-fcb37089-4b8d-4458-949f-d1776349cc3c.png)
+
+
+cargo-contract release version
+```bash
+cargo-contract -V
+```
+![image](https://user-images.githubusercontent.com/76512851/200310950-d5a5e787-5e43-4096-9453-758b42d03f53.png)
 
 
 
