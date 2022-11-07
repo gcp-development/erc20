@@ -46,15 +46,18 @@ cargo-contract -V
 ```
 ![image](https://user-images.githubusercontent.com/76512851/200310950-d5a5e787-5e43-4096-9453-758b42d03f53.png)
 <hr/>
-[Run the test cases for the contract.](https://use.ink/4.0.0-alpha.1/getting-started/creating-an-ink-project#testing-your-contract)<br/>
+[Run the test cases for the contract.](https://use.ink/4.0.0-alpha.1/getting-started/creating-an-ink-project#testing-your-contract)
+
 ```bash
 cargo +nightly test
 ```
-<br/>
-[Compile the contract.](https://use.ink/4.0.0-alpha.1/getting-started/building-your-contract)<br/>
+
+[Compile the contract.](https://use.ink/4.0.0-alpha.1/getting-started/building-your-contract)
+
 ```bash
 cargo +nightly contract build
 ```
+
 In the target folder we should have these files:
 ```bash
 target
@@ -63,6 +66,7 @@ target
     └─ erc20.wasm
     └─ metadata.json
 ```
+
 A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the contract's ABI) and the contract file(erc20.contract/which we will deploy to our chain).
 
 [Deploy the contract](https://use.ink/4.0.0-alpha.1/getting-started/deploy-your-contract)
