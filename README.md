@@ -9,6 +9,8 @@ sudo apt install build-essential
 sudo apt-get install -y libssl-dev
 sudo apt install pkg-config
 sudo apt install curl
+sudo apt update
+sudo apt upgrade
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 rustup update
