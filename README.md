@@ -1,12 +1,30 @@
 # erc20
 ERC-20 Token Standard
 
-It's assumed that Rust is [configured and running](https://doc.rust-lang.org/cargo/getting-started/installation.html).
-
-It's assumed that ink! CLI is [configured and running](https://use.ink/4.0.0-alpha.1/getting-started/setup#ink-cli)
+The cargo-contract release version use is [v2.0.0-alpha.5](https://github.com/paritytech/cargo-contract/releases/). This release(v2.0.0-alpha.5) supports compatibility with the [v4.0.0-alpha.3](https://github.com/paritytech/ink/releases/tag/v4.0.0-alpha.3) release of ink!.<b>It is not backwards compatible with older versions of ink!</b>.
 
 ```bash
-cargo-contract
+sudo apt install build-essential
+sudo apt-get install -y libssl-dev
+sudo apt install pkg-config
+sudo apt install curl
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+rustc --version
+rustup update
+rustup component add rust-src
+cargo install cargo-dylint dylint-link
+cargo install --force --locked cargo-contract
+cargo-contract -V
+rustup show
+rustup +nightly show
+rustup update
+rustup update nightly
+rustup target add wasm32-unknown-unknown --toolchain nightly
+rustup install nightly-2022-08-15
+rustup default nightly
+curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+cargo install cargo-contract --version 2.0.0-alpha.5
 ```
 ![image](https://user-images.githubusercontent.com/76512851/200001258-5d3bb9ab-ea23-44f7-b93b-f38333e4bb4b.png)
 
