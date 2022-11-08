@@ -56,7 +56,7 @@ cargo +nightly test
 [Compile the contract.](https://use.ink/4.0.0-alpha.1/getting-started/building-your-contract)
 
 ```bash
-cargo +nightly contract build
+cargo +stable contract build
 ```
 
 In the target folder we should have these files:
@@ -68,7 +68,13 @@ target
     └─ metadata.json
 ```
 
-A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the contract's ABI) and the contract file(erc20.contract/which we will deploy to our chain).
+A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the contract's ABI) and the contract file(erc20.contract/which we will deploy to our chain).<br/>
+Note:Application Binary Interface (ABI) definition from [Ethereum/Solidity](https://docs.soliditylang.org/en/v0.8.17/abi-spec.html)
+
+View from [Intellij community edition](https://www.jetbrains.com/idea/download/#section=linux) with the [Rust plugin](https://www.jetbrains.com/rust/)
+
+![image](https://user-images.githubusercontent.com/76512851/200376991-a0a2151c-688d-4bfb-a2a8-bfc33758c22e.png)
+
 
 [Deploy the contract](https://use.ink/4.0.0-alpha.1/getting-started/deploy-your-contract)
 
