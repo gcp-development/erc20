@@ -57,7 +57,7 @@ mod erc20 {
         pub fn new(total_supply: Balance) -> Self {
             let mut balances = Mapping::default();
             let caller = Self::env().caller();
-            balances.insert(&caller, &total_supply);
+            balances.insert(caller, &total_supply);
             Self::env().emit_event(Transfer {
                 from: None,
                 to: Some(caller),
@@ -257,7 +257,7 @@ mod erc20 {
 
             let topics = event.topics.clone();
             for (n, (actual_topic, expected_topic)) in
-                topics.iter().zip(expected_topics).enumerate()
+            topics.iter().zip(expected_topics).enumerate()
             {
                 let mut topic_hash = Hash::clear();
                 let len = actual_topic.len();
@@ -485,8 +485,8 @@ mod erc20 {
         }
 
         impl<X> scale::Encode for PrefixedValue<'_, '_, X>
-        where
-            X: scale::Encode,
+            where
+                X: scale::Encode,
         {
             #[inline]
             fn size_hint(&self) -> usize {
@@ -501,8 +501,8 @@ mod erc20 {
         }
 
         fn encoded_into_hash<T>(entity: &T) -> Hash
-        where
-            T: scale::Encode,
+            where
+                T: scale::Encode,
         {
             use ink::{
                 env::hash::{
