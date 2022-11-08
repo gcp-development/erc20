@@ -8,6 +8,7 @@ Setup for Ubuntu 22.04.1 LTS clean install.
 sudo apt install build-essential
 sudo apt-get install -y libssl-dev
 apt install -y protobuf-compiler
+sudo apt install clang
 sudo apt install pkg-config
 sudo apt install curl
 sudo apt update
