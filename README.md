@@ -80,7 +80,7 @@ View from [Intellij community edition](https://www.jetbrains.com/idea/download/#
 
 [Deploy the contract](https://use.ink/4.0.0-alpha.1/getting-started/deploy-your-contract)
 
-The current  Contracts UI is not updated yet to work with ink4.0
+The current [Contracts UI](https://contracts-ui.substrate.io/?rpc=ws://127.0.0.1:9944) is not updated yet to work with ink4.0
 
 References:<br/>
 [ink!](https://use.ink/4.0.0-alpha.1/)<br/>
