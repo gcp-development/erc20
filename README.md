@@ -80,6 +80,8 @@ View from [Intellij community edition](https://www.jetbrains.com/idea/download/#
 
 [Deploy the contract](https://use.ink/4.0.0-alpha.1/getting-started/deploy-your-contract)
 
+The current  Contracts UI is not updated yet to work with ink4.0
+
 References:<br/>
 [ink!](https://use.ink/4.0.0-alpha.1/)<br/>
 [Rust and WebAssembly](https://rustwasm.github.io/docs/book/)
