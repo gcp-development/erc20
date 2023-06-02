@@ -24,15 +24,15 @@ cargo contract --version
 The current [toolchain](https://rust-lang.github.io/rustup-components-history/) setup is as follows:
 
 ```bash
-rustup toolchain install nightly-2023-02-07
+rustup toolchain install nightly-2023-02-09
 ```
 
 ```bash
-rustup component add rust-src --toolchain nightly-2023-02-07-x86_64-unknown-linux-gnu
+rustup component add rust-src --toolchain nightly-2023-02-09-x86_64-unknown-linux-gnu
 ```
 
 ```bash
-rustup override set nightly-2023-02-07
+rustup override set nightly-2023-02-09
 ```
 
 Note: There is a current [bug](https://github.com/paritytech/cargo-contract/issues/1058) in cargo-contract, building contracts with rust nightly 1.70.0 or higher. That's why we have to use the rustc [v1.69.0](https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html).
