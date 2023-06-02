@@ -74,10 +74,17 @@ A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the con
 
 ![image](https://github.com/gcp-development/erc20/assets/76512851/5c445cea-4146-45a9-91d7-70e05bcba0a5)
 
-
-
 Create an account (https://wiki.polkadot.network/docs/learn-account-generation#polkadot-js-browser-extension)
 ![image](https://github.com/gcp-development/erc20/assets/76512851/b5bb692f-010f-4fb5-8bea-414dc1cb33ae)
+
+```bash
+cargo contract upload --suri "your twelve or twenty-four words"
+```
+
+
+```bash
+cargo contract instantiate --suri … --constructor new --args true
+```
 
 Deploy the contract to [Rococo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-contracts-rpc.polkadot.io#/contracts)([testnet](https://use.ink/testnet) for Polkadot)
 
