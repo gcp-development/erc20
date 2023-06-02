@@ -31,6 +31,10 @@ rustup toolchain install nightly-2023-02-07
 rustup component add rust-src --toolchain nightly-2023-02-07-x86_64-unknown-linux-gnu
 ```
 
+```bash
+rustup override set nightly-2023-02-07
+```
+
 The directory will be assigned with a Rust toolchain with [rustup override](https://rust-lang.github.io/rustup/overrides.html#directory-overrides).
 
 ```bash
