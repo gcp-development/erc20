@@ -85,6 +85,10 @@ Deploy the contract to [Rococo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fro
 
 ![image](https://github.com/gcp-development/erc20/assets/76512851/9a0849aa-9c3a-41d7-8dc8-4e635b1a3eb3)
 
+![image](https://github.com/gcp-development/erc20/assets/76512851/40428f28-20a4-4f16-a663-3822784c3f75)
+
+![image](https://github.com/gcp-development/erc20/assets/76512851/3387ab88-6ef1-4cb8-92fb-86a19e2b3d0d)
+
 
 References:<br/>
 [ink!](https://use.ink/4.0.0-alpha.1/)<br/>
