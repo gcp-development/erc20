@@ -75,6 +75,17 @@ A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the con
 ![image](https://github.com/gcp-development/erc20/assets/76512851/5c445cea-4146-45a9-91d7-70e05bcba0a5)
 
 
+
+Create an account (https://wiki.polkadot.network/docs/learn-account-generation#polkadot-js-browser-extension)
+![image](https://github.com/gcp-development/erc20/assets/76512851/b5bb692f-010f-4fb5-8bea-414dc1cb33ae)
+
+Deploy the contract to [Rococo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-contracts-rpc.polkadot.io#/contracts)([testnet](https://use.ink/testnet) for Polkadot)
+
+![image](https://github.com/gcp-development/erc20/assets/76512851/10f94c5c-a1de-4a3d-859c-af7f364ec841)
+
+
+Note:
+
 References:<br/>
 [ink!](https://use.ink/4.0.0-alpha.1/)<br/>
 [Rust and WebAssembly](https://rustwasm.github.io/docs/book/)
