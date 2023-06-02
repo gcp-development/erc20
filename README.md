@@ -79,18 +79,22 @@ Create an account (https://wiki.polkadot.network/docs/learn-account-generation#p
 
 <hr>
 
-Deploy the contract via command-line.
+## Deploy via command-line
+
+Deploy the contract.
 ```bash
 cargo contract upload --suri "account twelve words"
 ```
 
-Instantiate the contract via command-line.
+Instantiate the contract.
 ```bash
 cargo contract instantiate --suri … --constructor new --args 1
 ```
 Note:cargo-contract [commands](https://github.com/paritytech/cargo-contract/blob/master/docs/extrinsics.md#commands)
 
 <hr>
+
+## Deploy via browser
 
 Deploy the contract to [Rococo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-contracts-rpc.polkadot.io#/contracts)([testnet](https://use.ink/testnet) for Polkadot)
 
