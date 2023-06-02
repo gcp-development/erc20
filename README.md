@@ -70,7 +70,10 @@ target
     └─ erc20.wasm
     └─ metadata.json
 ```
-A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the contract's ABI) and the contract file(erc20.contract/which we will deploy to our chain).
+A Wasm binary(erc20.wasm), a metadata file (metadata.json/which contains the contract's [ABI](https://use.ink/basics/metadata#abi)) and the contract file(erc20.contract/which we will deploy to our chain).
+
+![image](https://github.com/gcp-development/erc20/assets/76512851/5c445cea-4146-45a9-91d7-70e05bcba0a5)
+
 
 References:<br/>
 [ink!](https://use.ink/4.0.0-alpha.1/)<br/>
