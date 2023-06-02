@@ -46,6 +46,9 @@ rustup show
 
 Note:The nightly-2023-02-09 is set by the [rust-toolchain.toml](https://github.com/gcp-development/erc20/blob/main/rust-toolchain.toml) file.
 
+<hr>
+
+## Test cases
 
 Run the test cases for the  contract
 ```bash
@@ -54,6 +57,9 @@ cargo test
 
 ![image](https://github.com/gcp-development/erc20/assets/76512851/18d2368e-aed9-45c5-9808-5eedf15cbcbe)
 
+<hr>
+
+## Build
 
 Build the contract
 ```bash
@@ -108,6 +114,7 @@ Deploy the contract to [Rococo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fro
 
 ![image](https://github.com/gcp-development/erc20/assets/76512851/ce70c818-6590-4a4a-827e-9a8172bf6f62)
 
+<hr>
 
 References:<br/>
 [ink!](https://use.ink/4.0.0-alpha.1/)<br/>
