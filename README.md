@@ -59,6 +59,8 @@ Build the contract
 cargo contract build
 ```
 
+![image](https://github.com/gcp-development/erc20/assets/76512851/be915f99-795c-408f-b531-c4068036c606)
+
 In the target folder we should have these files:
 ```bash
 target
