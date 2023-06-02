@@ -12,7 +12,17 @@ It's assumed that these software are installed and running:
 This project was developed using the [Intellij Community](https://www.jetbrains.com/idea/download/#section=linux) with the [Rust plugin](https://www.jetbrains.com/rust/).
 
 <hr>
-## Environment
+
+## Table of Contents<br>
+- [Environment](https://github.com/gcp-development/ipfs-private-network#ipfs-vs-libp2p)
+- [Test cases](https://github.com/gcp-development/ipfs-private-network#libp2p)
+- [Build](https://github.com/gcp-development/ipfs-private-network#authentication)
+- [Deploy via command-line](https://github.com/gcp-development/ipfs-private-network#how-to-handle-authorization)
+- [Deploy via browser](https://github.com/gcp-development/ipfs-private-network#how-to-handle-authorization)
+
+<hr>
+
+### Environment
 
 [ink! CLI version](https://use.ink/getting-started/setup#ink-cli).
 
@@ -49,7 +59,7 @@ Note:The nightly-2023-02-09 is set by the [rust-toolchain.toml](https://github.c
 
 <hr>
 
-## Test cases
+### Test cases
 
 Run the test cases for the  contract
 ```bash
@@ -60,7 +70,7 @@ cargo test
 
 <hr>
 
-## Build
+### Build
 
 Build the contract
 ```bash
@@ -86,7 +96,7 @@ Create an account (https://wiki.polkadot.network/docs/learn-account-generation#p
 
 <hr>
 
-## Deploy via command-line
+### Deploy via command-line
 
 Deploy the contract.
 ```bash
@@ -101,7 +111,7 @@ Note:cargo-contract [commands](https://github.com/paritytech/cargo-contract/blob
 
 <hr>
 
-## Deploy via browser
+### Deploy via browser
 
 Deploy the contract to [Rococo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-contracts-rpc.polkadot.io#/contracts)([testnet](https://use.ink/testnet) for Polkadot)
 
