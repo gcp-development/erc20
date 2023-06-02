@@ -78,15 +78,16 @@ Create an account (https://wiki.polkadot.network/docs/learn-account-generation#p
 ![image](https://github.com/gcp-development/erc20/assets/76512851/b5bb692f-010f-4fb5-8bea-414dc1cb33ae)
 
 
-Deploy the contract via cargo.
+Deploy the contract via command-line.
 ```bash
 cargo contract upload --suri "account twelve words"
 ```
 
-Instantiate the contract via cargo.
+Instantiate the contract via command-line.
 ```bash
 cargo contract instantiate --suri … --constructor new --args 1
 ```
+Note:cargo-contract [crate](https://crates.io/crates/cargo-contract)
 
 Deploy the contract to [Rococo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-contracts-rpc.polkadot.io#/contracts)([testnet](https://use.ink/testnet) for Polkadot)
 
