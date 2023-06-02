@@ -14,11 +14,11 @@ This project was developed using the [Intellij Community](https://www.jetbrains.
 <hr>
 
 ## Table of Contents<br>
-- [Environment](https://github.com/gcp-development/ipfs-private-network#ipfs-vs-libp2p)
-- [Test cases](https://github.com/gcp-development/ipfs-private-network#libp2p)
-- [Build](https://github.com/gcp-development/ipfs-private-network#authentication)
-- [Deploy via command-line](https://github.com/gcp-development/ipfs-private-network#how-to-handle-authorization)
-- [Deploy via browser](https://github.com/gcp-development/ipfs-private-network#how-to-handle-authorization)
+- [Environment](https://github.com/gcp-development/erc20/blob/main/README.md#environment)
+- [Test cases](https://github.com/gcp-development/erc20/blob/main/README.md#test-cases)
+- [Build](https://github.com/gcp-development/erc20/blob/main/README.md#build)
+- [Deploy via command-line](https://github.com/gcp-development/erc20/blob/main/README.md#deploy-via-command-line)
+- [Deploy via browser](https://github.com/gcp-development/erc20/blob/main/README.md#deploy-via-browser)
 
 <hr>
 
