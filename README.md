@@ -47,6 +47,9 @@ Run the test cases for the  contract
 cargo test
 ```
 
+![image](https://github.com/gcp-development/erc20/assets/76512851/18d2368e-aed9-45c5-9808-5eedf15cbcbe)
+
+
 Build the contract
 ```bash
 cargo +nightly-2023-02-07 contract build
