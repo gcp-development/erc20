@@ -39,18 +39,19 @@ rustup show
 
 ![image](https://github.com/gcp-development/erc20/assets/76512851/144b8725-1940-4683-bf74-d86b351cfac6)
 
-Note:The nightly-2023-02-07 is set by the [rust-toolchain.toml](https://github.com/gcp-development/dev-node-substrate/blob/main/rust-toolchain.toml) file.
+Note:The nightly-2023-02-07 is set by the [rust-toolchain.toml](https://github.com/gcp-development/erc20/blob/main/rust-toolchain.toml) file.
 
 
 Run the test cases for the  contract
 ```bash
-cargo +nightly test
+cargo test
 ```
 
 Build the contract
 ```bash
-cargo +nightly contract build
+cargo +nightly-2023-02-07 contract build
 ```
+
 In the target folder we should have these files:
 ```bash
 target
