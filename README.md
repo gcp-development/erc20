@@ -56,7 +56,7 @@ cargo test
 
 Build the contract
 ```bash
-cargo +nightly-2023-02-07 contract build
+cargo contract build
 ```
 
 In the target folder we should have these files:
