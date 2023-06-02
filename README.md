@@ -100,6 +100,8 @@ Create an [Polkdot account](https://wiki.polkadot.network/docs/learn-account-gen
 
 ![image](https://github.com/gcp-development/erc20/assets/76512851/b5bb692f-010f-4fb5-8bea-414dc1cb33ae)
 
+Note:For this example the [firefox polkadot-js-extension](https://addons.mozilla.org/en-GB/firefox/addon/polkadot-js-extension/) was used.
+
 <hr>
 
 ### Deploy via command-line
