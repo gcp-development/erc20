@@ -35,6 +35,8 @@ rustup component add rust-src --toolchain nightly-2023-02-07-x86_64-unknown-linu
 rustup override set nightly-2023-02-07
 ```
 
+Note: There is a current [bug](https://github.com/paritytech/cargo-contract/issues/1058) in cargo-contract, building contracts with rust nightly 1.70.0 or higher. That's why we have to use the rustc [v1.69.0](https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html).
+
 The directory will be assigned with a Rust toolchain with [rustup override](https://rust-lang.github.io/rustup/overrides.html#directory-overrides).
 
 ```bash
