@@ -1,14 +1,46 @@
 # erc20
 ERC-20 Token Standard
 
-It's assumed that Rust is [configured and running](https://doc.rust-lang.org/cargo/getting-started/installation.html).
+It's assumed that these software are installed and running:
 
-It's assumed that ink! CLI is [configured and running](https://use.ink/4.0.0-alpha.1/getting-started/setup#ink-cli)
+<ul>
+  <li><a href="https://www.rust-lang.org/tools/install" target="_blank">Rust</a></li>
+  <li><a href="https://rust-lang.github.io/rustup/installation/index.html#installing-nightly" target="_blank">nightly</a></li>
+  <li><a href="https://crates.io/crates/cargo-contract" target="_blank">cargo contract</a></li>
+</ul>
+
+This project was developed using the [Intellij Community](https://www.jetbrains.com/idea/download/#section=linux) with the [Rust plugin](https://www.jetbrains.com/rust/).
+
+<hr>
+
+[ink! CLI version](https://use.ink/getting-started/setup#ink-cli).
 
 ```bash
-cargo-contract
+cargo contract --version
 ```
-![image](https://user-images.githubusercontent.com/76512851/200001258-5d3bb9ab-ea23-44f7-b93b-f38333e4bb4b.png)
+
+![image](https://github.com/gcp-development/erc20/assets/76512851/97773ed9-ea13-4fdc-b011-b860e7617993)
+
+The current [toolchain](https://rust-lang.github.io/rustup-components-history/) setup is as follows:
+
+```bash
+rustup toolchain install nightly-2023-02-07
+```
+
+```bash
+rustup component add rust-src --toolchain nightly-2023-02-07-x86_64-unknown-linux-gnu
+```
+
+The directory will be assigned with a Rust toolchain with [rustup override](https://rust-lang.github.io/rustup/overrides.html#directory-overrides).
+
+```bash
+rustup show
+```
+
+![image](https://github.com/gcp-development/erc20/assets/76512851/144b8725-1940-4683-bf74-d86b351cfac6)
+
+Note:The nightly-2023-02-07 is set by the [rust-toolchain.toml](https://github.com/gcp-development/dev-node-substrate/blob/main/rust-toolchain.toml) file.
+
 
 Run the test cases for the  contract
 ```bash
