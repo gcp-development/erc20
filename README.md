@@ -12,6 +12,7 @@ It's assumed that these software are installed and running:
 This project was developed using the [Intellij Community](https://www.jetbrains.com/idea/download/#section=linux) with the [Rust plugin](https://www.jetbrains.com/rust/).
 
 <hr>
+## Environment
 
 [ink! CLI version](https://use.ink/getting-started/setup#ink-cli).
 
